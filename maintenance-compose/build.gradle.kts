@@ -66,7 +66,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dogusipeksac.maintenance-lib"
                 artifactId = "maintenance-compose"
-                version = "1.1.2"
+                version = "1.1.1"
             }
         }
     }
