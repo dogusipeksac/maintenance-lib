@@ -50,7 +50,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dogusipeksac"
                 artifactId = "core"
-                version = "1.1.1"
+                version = "1.1.3"
             }
         }
     }
