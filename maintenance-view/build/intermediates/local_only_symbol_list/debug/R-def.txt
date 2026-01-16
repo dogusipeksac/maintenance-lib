@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+attr? maintenanceBackgroundColor
+attr? maintenanceIcon
+attr? maintenanceMessage
+attr? maintenanceMessageColor
+attr? maintenanceTitle
+attr? maintenanceTitleColor
+attr? retryButtonText
+attr? showRetryButton
+drawable ic_maintenance
+id btnRetry
+id iconMaintenance
+id rootLayout
+id tvMessage
+id tvTitle
+layout activity_maintenance
+layout dialog_maintenance
+layout view_maintenance
+string default_maintenance_message
+string default_maintenance_title
+string default_retry_button
+string maintenance_icon_description
+style MaintenanceMessage
+style MaintenanceTitle
+style Theme.MaintenanceMode
+styleable MaintenanceView maintenanceTitle maintenanceMessage maintenanceIcon showRetryButton retryButtonText maintenanceBackgroundColor maintenanceTitleColor maintenanceMessageColor

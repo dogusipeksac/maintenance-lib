@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dogus.maintenance.view" >
+
+    <uses-sdk android:minSdkVersion="21" />
+
+    <application>
+        <activity
+            android:name="com.dogus.maintenance.view.MaintenanceActivity"
+            android:exported="false"
+            android:theme="@style/Theme.MaintenanceMode" />
+    </application>
+
+</manifest>

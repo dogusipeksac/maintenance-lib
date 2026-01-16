@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="incidents">
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <fix-composite
+            description="Replace with new library catalog declaration for annotation"
+            robot="true">
+            <fix-replace
+                description="Replace with annotationVersion = &quot;1.7.1&quot;..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="annotationVersion = &quot;1.7.1&quot;&#xA;">
+                <range
+                    file="$HOME/AndroidStudioProjects/MaintenanceModeGeneric/gradle/libs.versions.toml"
+                    startOffset="26"
+                    endOffset="26"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with annotation = { module = &quot;androidx.annotation:annotation&quot;, version.ref = &quot;annotationVersion&quot; }..."
+                robot="true"
+                oldString="_lint_insert_begin_"
+                replacement="annotation = { module = &quot;androidx.annotation:annotation&quot;, version.ref = &quot;annotationVersion&quot; }&#xA;">
+                <range
+                    file="$HOME/AndroidStudioProjects/MaintenanceModeGeneric/gradle/libs.versions.toml"
+                    startOffset="315"
+                    endOffset="315"/>
+            </fix-replace>
+            <fix-replace
+                description="Replace with libs.annotation"
+                robot="true"
+                replacement="libs.annotation">
+                <range
+                    file="${:core*projectDir}/build.gradle.kts"
+                    startOffset="916"
+                    endOffset="954"/>
+            </fix-replace>
+        </fix-composite>
+        <location
+            file="${:core*projectDir}/build.gradle.kts"
+            line="43"
+            column="21"
+            startOffset="917"
+            endLine="43"
+            endColumn="57"
+            endOffset="953"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.annotation:annotation than 1.7.1 is available: 1.9.1">
+        <fix-replace
+            description="Change to 1.9.1"
+            family="Update versions"
+            oldString="1.7.1"
+            replacement="1.9.1"/>
+        <location
+            file="${:core*projectDir}/build.gradle.kts"
+            line="43"
+            column="21"
+            startOffset="917"
+            endLine="43"
+            endColumn="57"
+            endOffset="953"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Maintenance Sample (Kotlin)</string>
+    <string name="show_activity">Show as Activity</string>
+    <string name="show_dialog">Show as Dialog</string>
+    <string name="show_fragment">Show as Fragment</string>
+    <string name="show_custom_view">Show Custom View</string>
+    <string name="show_with_dsl">Show with DSL</string>
+    <string name="show_with_config">Show with Config</string>
+    <string name="hide_custom_view">Hide Custom View</string>
+    <string name="examples_title">Maintenance Mode Examples</string>
+    <string name="subtitle">Kotlin + Android View</string>
+</resources>

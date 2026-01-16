@@ -1,0 +1,26 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:4:5-9:19
+activity#com.dogus.maintenance.compose.MaintenanceComposeActivity
+ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:5:9-8:79
+	android:exported
+		ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:7:13-37
+	android:theme
+		ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:8:13-76
+	android:name
+		ADDED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml:6:13-55
+uses-sdk
+INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml
+INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/maintenance-compose/src/main/AndroidManifest.xml

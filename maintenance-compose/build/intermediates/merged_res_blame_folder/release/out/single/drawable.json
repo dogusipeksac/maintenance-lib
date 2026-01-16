@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.dogus.maintenance.compose.maintenance-compose-merged_res-40:/drawable/notification_tile_bg.xml",
+        "source": "com.dogus.maintenance.compose.maintenance-compose-core-1.12.0-24:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.dogus.maintenance.compose.maintenance-compose-merged_res-40:/drawable/notification_icon_background.xml",
+        "source": "com.dogus.maintenance.compose.maintenance-compose-core-1.12.0-24:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "com.dogus.maintenance.compose.maintenance-compose-merged_res-40:/drawable/notification_bg_low.xml",
+        "source": "com.dogus.maintenance.compose.maintenance-compose-core-1.12.0-24:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.dogus.maintenance.compose.maintenance-compose-merged_res-40:/drawable/notification_bg.xml",
+        "source": "com.dogus.maintenance.compose.maintenance-compose-core-1.12.0-24:/drawable/notification_bg.xml"
+    }
+]

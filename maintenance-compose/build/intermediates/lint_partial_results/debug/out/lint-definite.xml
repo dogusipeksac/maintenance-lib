@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.2.2" type="incidents">
+
+    <incident
+        id="ModifierParameter"
+        severity="warning"
+        message="Modifier parameter should be the first optional parameter">
+        <location
+            file="${:maintenance-compose*debug*MAIN*sourceProvider*0*javaDir*0}/com/dogus/maintenance/compose/MaintenanceScreen.kt"
+            line="140"
+            column="5"
+            startOffset="4928"
+            endLine="140"
+            endColumn="13"
+            endOffset="4936"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="53"
+            column="21"
+            startOffset="1131"
+            endLine="53"
+            endColumn="43"
+            endOffset="1153"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="54"
+            column="21"
+            startOffset="1176"
+            endLine="54"
+            endColumn="57"
+            endOffset="1212"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="55"
+            column="21"
+            startOffset="1235"
+            endLine="55"
+            endColumn="59"
+            endOffset="1273"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (androidx.activity:activity-compose is already available as `androidx-activity-compose`, but using version 1.12.2 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for activity-compose-v182"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with androidx-activityCompose = &quot;1.8.2&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="androidx-activityCompose = &quot;1.8.2&quot;&#xA;">
+                    <range
+                        file="$HOME/AndroidStudioProjects/MaintenanceModeGeneric/gradle/libs.versions.toml"
+                        startOffset="26"
+                        endOffset="26"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with activity-compose-v182 = { module = &quot;androidx.activity:activity-compose&quot;, version.ref = &quot;androidx-activityCompose&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="activity-compose-v182 = { module = &quot;androidx.activity:activity-compose&quot;, version.ref = &quot;androidx-activityCompose&quot; }&#xA;">
+                    <range
+                        file="$HOME/AndroidStudioProjects/MaintenanceModeGeneric/gradle/libs.versions.toml"
+                        startOffset="223"
+                        endOffset="223"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.activity.compose.v182"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.activity.compose.v182">
+                    <range
+                        file="${:maintenance-compose*projectDir}/build.gradle.kts"
+                        startOffset="1295"
+                        endOffset="1337"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `androidx-activity-compose` (version 1.12.2)"
+                replacement="libs.androidx.activity.compose">
+                <range
+                    file="${:maintenance-compose*projectDir}/build.gradle.kts"
+                    startOffset="1295"
+                    endOffset="1337"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="56"
+            column="21"
+            startOffset="1296"
+            endLine="56"
+            endColumn="61"
+            endOffset="1336"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead (androidx.core:core-ktx is already available as `androidx-core-ktx`, but using version 1.17.0 instead)">
+        <fix-alternatives>
+            <fix-composite
+                description="Replace with new library catalog declaration for core-ktx-v1120"
+                robot="true"
+                independent="true">
+                <fix-replace
+                    description="Replace with androidx-coreKtx = &quot;1.12.0&quot;..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="androidx-coreKtx = &quot;1.12.0&quot;&#xA;">
+                    <range
+                        file="$HOME/AndroidStudioProjects/MaintenanceModeGeneric/gradle/libs.versions.toml"
+                        startOffset="26"
+                        endOffset="26"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with core-ktx-v1120 = { module = &quot;androidx.core:core-ktx&quot;, version.ref = &quot;androidx-coreKtx&quot; }..."
+                    robot="true"
+                    independent="true"
+                    oldString="_lint_insert_begin_"
+                    replacement="core-ktx-v1120 = { module = &quot;androidx.core:core-ktx&quot;, version.ref = &quot;androidx-coreKtx&quot; }&#xA;">
+                    <range
+                        file="$HOME/AndroidStudioProjects/MaintenanceModeGeneric/gradle/libs.versions.toml"
+                        startOffset="315"
+                        endOffset="315"/>
+                </fix-replace>
+                <fix-replace
+                    description="Replace with libs.core.ktx.v1120"
+                    robot="true"
+                    independent="true"
+                    replacement="libs.core.ktx.v1120">
+                    <range
+                        file="${:maintenance-compose*projectDir}/build.gradle.kts"
+                        startOffset="1358"
+                        endOffset="1389"/>
+                </fix-replace>
+            </fix-composite>
+            <fix-replace
+                description="Replace with existing version catalog reference `androidx-core-ktx` (version 1.17.0)"
+                replacement="libs.androidx.core.ktx">
+                <range
+                    file="${:maintenance-compose*projectDir}/build.gradle.kts"
+                    startOffset="1358"
+                    endOffset="1389"/>
+            </fix-replace>
+        </fix-alternatives>
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="57"
+            column="21"
+            startOffset="1359"
+            endLine="57"
+            endColumn="50"
+            endOffset="1388"/>
+    </incident>
+
+    <incident
+        id="UseTomlInstead"
+        severity="warning"
+        message="Use version catalog instead">
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="59"
+            column="26"
+            startOffset="1421"
+            endLine="59"
+            endColumn="56"
+            endOffset="1451"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.8.2 is available: 1.12.2">
+        <fix-replace
+            description="Change to 1.12.2"
+            family="Update versions"
+            oldString="1.8.2"
+            replacement="1.12.2"/>
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="56"
+            column="21"
+            startOffset="1296"
+            endLine="56"
+            endColumn="61"
+            endOffset="1336"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.17.0"/>
+        <location
+            file="${:maintenance-compose*projectDir}/build.gradle.kts"
+            line="57"
+            column="21"
+            startOffset="1359"
+            endLine="57"
+            endColumn="50"
+            endOffset="1388"/>
+    </incident>
+
+</incidents>

@@ -1,0 +1,4 @@
+com.dogus.maintenance.core
+string maintenance_default_message
+string maintenance_default_retry_button
+string maintenance_default_title

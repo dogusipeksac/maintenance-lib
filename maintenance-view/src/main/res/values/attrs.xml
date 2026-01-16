@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaintenanceView">
+        <attr name="maintenanceTitle" format="string" />
+        <attr name="maintenanceMessage" format="string" />
+        <attr name="maintenanceIcon" format="reference" />
+        <attr name="showRetryButton" format="boolean" />
+        <attr name="retryButtonText" format="string" />
+        <attr name="maintenanceBackgroundColor" format="color" />
+        <attr name="maintenanceTitleColor" format="color" />
+        <attr name="maintenanceMessageColor" format="color" />
+    </declare-styleable>
+</resources>

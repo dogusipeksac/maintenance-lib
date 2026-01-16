@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dogus.maintenance.sample.kotlin.sample-kotlin-mergeDebugResources-37:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/dogus.ipeksac/.gradle/caches/8.13/transforms/04576e5d8cd627c9c176ce0ddc234b55/transformed/material-1.11.0/res/values-small-v4/values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

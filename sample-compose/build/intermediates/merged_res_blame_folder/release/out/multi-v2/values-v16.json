@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.dogus.maintenance.sample.compose.sample-compose-mergeReleaseResources-40:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/dogus.ipeksac/.gradle/caches/8.13/transforms/b9bfeb02b8e7cd484461b4eeceb03d16/transformed/core-1.12.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

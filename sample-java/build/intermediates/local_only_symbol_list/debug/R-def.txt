@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+id btnShowActivity
+id btnShowDialog
+id btnShowFragment
+id btnShowWithBuilder
+id btnShowWithConfig
+id btnToggleCustomView
+id fragmentContainer
+id maintenanceView
+id tvSubtitle
+id tvTitle
+layout activity_main
+string app_name
+string examples_title
+string hide_custom_view
+string show_activity
+string show_custom_view
+string show_dialog
+string show_fragment
+string show_with_builder
+string show_with_config
+string subtitle
+style Theme.MaintenanceLib

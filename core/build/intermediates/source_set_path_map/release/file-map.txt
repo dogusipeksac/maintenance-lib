@@ -1,0 +1,7 @@
+com.dogus.maintenance.core-pngs-0 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/build/generated/res/pngs/release
+com.dogus.maintenance.core-resValues-1 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/build/generated/res/resValues/release
+com.dogus.maintenance.core-mergeReleaseResources-2 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.dogus.maintenance.core-mergeReleaseResources-3 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.dogus.maintenance.core-merged_res-4 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/build/intermediates/merged_res/release
+com.dogus.maintenance.core-main-5 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/src/main/res
+com.dogus.maintenance.core-release-6 /Users/dogus.ipeksac/AndroidStudioProjects/MaintenanceModeGeneric/core/src/release/res
