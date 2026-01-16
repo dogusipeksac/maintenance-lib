@@ -27,7 +27,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.dogusipeksac"
-                artifactId = "maintenance-core" // or maintenance-view, maintenance-compose
+                artifactId = "core" // or maintenance-view, maintenance-compose
                 version = "1.0.0"
             }
         }
@@ -112,14 +112,14 @@ dependencyResolutionManagement {
 ```kotlin
 dependencies {
     // For Android View
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac:maintenance-view:1.0.0")
     
     // For Jetpack Compose
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac:maintenance-compose:1.0.0")
     
     // For both
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac:maintenance-compose:1.0.0")
 }
 ```
 

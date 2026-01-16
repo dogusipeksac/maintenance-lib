@@ -48,8 +48,8 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.dogusipeksac.maintenance-lib"
-                artifactId = "maintenance-core"
+                groupId = "com.github.dogusipeksac"
+                artifactId = "core"
                 version = "1.1.1"
             }
         }

@@ -67,22 +67,22 @@ Choose the module(s) you need:
 #### For Android View (Kotlin/Java)
 ```kotlin
 dependencies {
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.1.1")
+    implementation("com.github.dogusipeksac:maintenance-view:1.1.1")
 }
 ```
 
 #### For Jetpack Compose
 ```kotlin
 dependencies {
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.1.1")
+    implementation("com.github.dogusipeksac:maintenance-compose:1.1.1")
 }
 ```
 
 #### For Both
 ```kotlin
 dependencies {
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.1.1")
-    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.1.1")
+    implementation("com.github.dogusipeksac:maintenance-view:1.1.1")
+    implementation("com.github.dogusipeksac:maintenance-compose:1.1.1")
 }
 ```
 
