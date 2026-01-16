@@ -1,6 +1,6 @@
 # Maintenance Mode Library 🔧
 
-[![](https://jitpack.io/v/dogusates/maintenance-lib.svg)](https://jitpack.io/#dogusates/maintenance-lib)
+[![](https://jitpack.io/v/dogusipeksac/maintenance-lib.svg)](https://jitpack.io/#dogusipeksac/maintenance-lib)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 
@@ -13,7 +13,8 @@ A modern, modular Android library for displaying maintenance mode with support f
 
 | Activity | Dialog | Custom View | Compose |
 |----------|--------|-------------|---------|
-| ![Activity](docs/screenshot_activity.png) | ![Dialog](docs/screenshot_dialog.png) | ![View](docs/screenshot_view.png) | ![Compose](docs/screenshot_compose.png) |
+| **Activity** | **Dialog** | **Custom View** | **Compose** |
+| ![Activity](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_activity.png) | ![Dialog](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_dialog.png) | ![View](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_view.png) | ![Compose](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_compose.png) |
 
 ## ✨ Features
 
@@ -66,22 +67,22 @@ Choose the module(s) you need:
 #### For Android View (Kotlin/Java)
 ```kotlin
 dependencies {
-    implementation("com.github.dogusates.maintenance-lib:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
 }
 ```
 
 #### For Jetpack Compose
 ```kotlin
 dependencies {
-    implementation("com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
 }
 ```
 
 #### For Both
 ```kotlin
 dependencies {
-    implementation("com.github.dogusates.maintenance-lib:maintenance-view:1.0.0")
-    implementation("com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
 }
 ```
 
@@ -565,7 +566,7 @@ SOFTWARE.
 ## 👨‍💻 Author
 
 **Doğuş İpeksaç**
-- GitHub: [@dogusates](https://github.com/dogusates)
+- GitHub: [@dogusipeksac](https://github.com/dogusipeksac)
 
 ## ⭐ Support
 
@@ -580,9 +581,9 @@ Check out the sample apps in the repository:
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/dogusates/maintenance-lib)
-- [Issue Tracker](https://github.com/dogusates/maintenance-lib/issues)
-- [JitPack](https://jitpack.io/#dogusates/maintenance-lib)
+- [GitHub Repository](https://github.com/dogusipeksac/maintenance-lib)
+- [Issue Tracker](https://github.com/dogusipeksac/maintenance-lib/issues)
+- [JitPack](https://jitpack.io/#dogusipeksac/maintenance-lib)
 
 ---
 

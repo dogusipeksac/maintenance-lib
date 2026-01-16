@@ -258,6 +258,6 @@ See [JITPACK_PUBLISH.md](JITPACK_PUBLISH.md) for details.
 
 ## Resources
 
-- GitHub: https://github.com/dogusates/maintenance-lib
-- JitPack: https://jitpack.io/#dogusates/maintenance-lib
-- Issues: https://github.com/dogusates/maintenance-lib/issues
+- GitHub: https://github.com/dogusipeksac/maintenance-lib
+- JitPack: https://jitpack.io/#dogusipeksac/maintenance-lib
+- Issues: https://github.com/dogusipeksac/maintenance-lib/issues

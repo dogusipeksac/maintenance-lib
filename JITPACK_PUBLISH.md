@@ -26,7 +26,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-                groupId = "com.github.dogusates"
+                groupId = "com.github.dogusipeksac"
                 artifactId = "maintenance-core" // or maintenance-view, maintenance-compose
                 version = "1.0.0"
             }
@@ -74,7 +74,7 @@ Go to [https://jitpack.io](https://jitpack.io)
 
 Enter your GitHub repository URL:
 ```
-https://github.com/dogusates/maintenance-lib
+https://github.com/dogusipeksac/maintenance-lib
 ```
 
 ### 3.3 Look up the version
@@ -112,14 +112,14 @@ dependencyResolutionManagement {
 ```kotlin
 dependencies {
     // For Android View
-    implementation("com.github.dogusates.maintenance-lib:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
     
     // For Jetpack Compose
-    implementation("com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
     
     // For both
-    implementation("com.github.dogusates.maintenance-lib:maintenance-view:1.0.0")
-    implementation("com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
 }
 ```
 
@@ -234,14 +234,14 @@ git push origin v1.0.0
 Add a JitPack badge to your README.md:
 
 ```markdown
-[![](https://jitpack.io/v/dogusates/maintenance-lib.svg)](https://jitpack.io/#dogusates/maintenance-lib)
+[![](https://jitpack.io/v/dogusipeksac/maintenance-lib.svg)](https://jitpack.io/#dogusipeksac/maintenance-lib)
 ```
 
 ## Support
 
 - [JitPack Documentation](https://jitpack.io/docs/)
 - [JitPack Building](https://jitpack.io/docs/BUILDING/)
-- [GitHub Issues](https://github.com/dogusates/maintenance-lib/issues)
+- [GitHub Issues](https://github.com/dogusipeksac/maintenance-lib/issues)
 
 ---
 

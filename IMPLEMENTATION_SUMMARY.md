@@ -289,8 +289,8 @@ MaintenanceScreen(config = config)
 maven { url = uri("https://jitpack.io") }
 
 // build.gradle.kts
-implementation("com.github.dogusates.maintenance-lib:maintenance-view:1.0.0")
-implementation("com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0")
+implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
+implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
 ```
 
 ## 🔨 Build & Test
@@ -328,7 +328,7 @@ git tag -a v1.0.0 -m "Release version 1.0.0"
 git push origin v1.0.0
 
 # JitPack will automatically build from the tag
-# Visit: https://jitpack.io/#dogusates/maintenance-lib
+# Visit: https://jitpack.io/#dogusipeksac/maintenance-lib
 ```
 
 ## ✨ Highlights
@@ -367,9 +367,9 @@ All sample apps include:
 
 ## 🔗 Important Links
 
-- **GitHub**: https://github.com/dogusates/maintenance-lib
-- **JitPack**: https://jitpack.io/#dogusates/maintenance-lib
-- **Issues**: https://github.com/dogusates/maintenance-lib/issues
+- **GitHub**: https://github.com/dogusipeksac/maintenance-lib
+- **JitPack**: https://jitpack.io/#dogusipeksac/maintenance-lib
+- **Issues**: https://github.com/dogusipeksac/maintenance-lib/issues
 
 ## 📝 Next Steps
 

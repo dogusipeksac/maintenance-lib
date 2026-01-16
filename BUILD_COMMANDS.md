@@ -71,7 +71,7 @@ All commands you need to build, test, and publish the library.
 ### Verify Local Installation
 
 ```bash
-ls ~/.m2/repository/com/github/dogusates/
+ls ~/.m2/repository/com/github/dogusipeksac/
 ```
 
 ## 🔍 Verification Commands
@@ -263,13 +263,13 @@ git push origin :refs/tags/v1.0.0
 
 ```bash
 # After pushing tag
-curl https://jitpack.io/api/builds/com.github.dogusates/maintenance-lib/v1.0.0
+curl https://jitpack.io/api/builds/com.github.dogusipeksac/maintenance-lib/v1.0.0
 ```
 
 ### Check JitPack Status
 
 ```bash
-curl https://jitpack.io/api/builds/com.github.dogusates/maintenance-lib/latest
+curl https://jitpack.io/api/builds/com.github.dogusipeksac/maintenance-lib/latest
 ```
 
 ## 🔧 Gradle Wrapper Commands
@@ -348,7 +348,7 @@ git push origin v1.0.0
 gh release create v1.0.0 --title "v1.0.0" --notes-file CHANGELOG.md
 
 # 9. Verify JitPack build
-# Visit: https://jitpack.io/#dogusates/maintenance-lib
+# Visit: https://jitpack.io/#dogusipeksac/maintenance-lib
 ```
 
 ## 🆘 Troubleshooting Commands

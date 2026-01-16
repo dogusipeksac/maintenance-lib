@@ -25,10 +25,10 @@ In your app's `build.gradle.kts`:
 ```kotlin
 dependencies {
     // For Android View (Kotlin/Java)
-    implementation("com.github.dogusates.maintenance-lib:maintenance-view:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0")
     
     // For Jetpack Compose
-    implementation("com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0")
+    implementation("com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0")
 }
 ```
 
@@ -161,7 +161,7 @@ MaintenanceActivity.show(this, config)
 
 ## 🆘 Need Help?
 
-- [GitHub Issues](https://github.com/dogusates/maintenance-lib/issues)
+- [GitHub Issues](https://github.com/dogusipeksac/maintenance-lib/issues)
 - [Contributing Guide](CONTRIBUTING.md)
 
 ## ⭐ Support

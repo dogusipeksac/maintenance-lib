@@ -78,7 +78,7 @@ git push -u origin main
 Then connect your local repository:
 
 ```bash
-git remote add origin https://github.com/dogusates/maintenance-lib.git
+git remote add origin https://github.com/dogusipeksac/maintenance-lib.git
 git branch -M main
 git push -u origin main
 ```
@@ -131,11 +131,11 @@ gh release create v1.0.0 \
 maven { url = uri(\"https://jitpack.io\") }
 
 // Add dependency
-implementation(\"com.github.dogusates.maintenance-lib:maintenance-view:1.0.0\")
-implementation(\"com.github.dogusates.maintenance-lib:maintenance-compose:1.0.0\")
+implementation(\"com.github.dogusipeksac.maintenance-lib:maintenance-view:1.0.0\")
+implementation(\"com.github.dogusipeksac.maintenance-lib:maintenance-compose:1.0.0\")
 \`\`\`
 
-See [README.md](https://github.com/dogusates/maintenance-lib/blob/main/README.md) for complete documentation."
+See [README.md](https://github.com/dogusipeksac/maintenance-lib/blob/main/README.md) for complete documentation."
 ```
 
 #### Using GitHub Web Interface:
@@ -168,7 +168,7 @@ Repository description:
 Modern Android library for displaying maintenance mode with support for Kotlin, Java, and Jetpack Compose
 ```
 
-Website: `https://jitpack.io/#dogusates/maintenance-lib`
+Website: `https://jitpack.io/#dogusipeksac/maintenance-lib`
 
 ### 6.3 Enable Issues
 
@@ -181,7 +181,7 @@ GitHub will automatically show README.md on the repository page.
 ## Step 7: Verify JitPack Build
 
 1. Go to [https://jitpack.io](https://jitpack.io)
-2. Enter: `https://github.com/dogusates/maintenance-lib`
+2. Enter: `https://github.com/dogusipeksac/maintenance-lib`
 3. Click "Look up"
 4. Find `v1.0.0` and click "Get it"
 5. Wait for build to complete (green badge = success)
@@ -191,7 +191,7 @@ GitHub will automatically show README.md on the repository page.
 Once JitPack build succeeds, the badge will work:
 
 ```markdown
-[![](https://jitpack.io/v/dogusates/maintenance-lib.svg)](https://jitpack.io/#dogusates/maintenance-lib)
+[![](https://jitpack.io/v/dogusipeksac/maintenance-lib.svg)](https://jitpack.io/#dogusipeksac/maintenance-lib)
 ```
 
 ## Complete Command Sequence
@@ -233,7 +233,7 @@ If you prefer not to use GitHub CLI:
 
 ```bash
 # After creating repository on GitHub web interface
-git remote add origin https://github.com/dogusates/maintenance-lib.git
+git remote add origin https://github.com/dogusipeksac/maintenance-lib.git
 git branch -M main
 git push -u origin main
 git tag -a v1.0.0 -m "Release version 1.0.0"
