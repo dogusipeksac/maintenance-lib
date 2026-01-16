@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="maintenance_default_message">Uygulama şu anda bakımdadır</string>
-    <string name="maintenance_default_retry_button">Tekrar Dene</string>
-    <string name="maintenance_default_title">Bakım Modu</string>
-</resources>

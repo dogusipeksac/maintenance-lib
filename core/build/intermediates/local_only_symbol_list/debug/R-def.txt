@@ -1,5 +1,0 @@
-R_DEF: Internal format may change without notice
-local
-string maintenance_default_message
-string maintenance_default_retry_button
-string maintenance_default_title

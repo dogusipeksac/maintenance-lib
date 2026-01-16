@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<incidents format="6" by="lint 8.2.2" type="partial_results">
-    <map id="UnusedResources">
-        <entry
-            name="model"
-            string="attr[colorPrimary(R),android_textColorPrimary(R),maintenanceMessageColor(D),maintenanceIcon(D),maintenanceBackgroundColor(D),colorControlNormal(R),maintenanceTitle(D),android_textColorSecondary(R),maintenanceMessage(D),showRetryButton(D),maintenanceTitleColor(D),retryButtonText(D)],drawable[ic_maintenance(U)],id[btnRetry(U),tvTitle(U),tvMessage(U),rootLayout(D),iconMaintenance(U)],layout[activity_maintenance(U),dialog_maintenance(U),view_maintenance(U)],string[default_maintenance_title(U),default_maintenance_message(U),default_retry_button(U),maintenance_icon_description(U)],style[Theme_Material3_Light_NoActionBar(R),Theme_Material3_Dark_NoActionBar(R),Theme_MaintenanceMode(U),MaintenanceMessage(U),MaintenanceTitle(U)],styleable[MaintenanceView_maintenanceMessageColor(R),MaintenanceView_maintenanceIcon(R),MaintenanceView_maintenanceMessage(R),MaintenanceView_maintenanceTitle(R),MaintenanceView_maintenanceTitleColor(R),MaintenanceView_retryButtonText(R),MaintenanceView(U),MaintenanceView_showRetryButton(R),MaintenanceView_maintenanceBackgroundColor(R)];c^5,12^18^c^e^0^15^f^11^1d^16^d^1c^17,13^18^c^0^15^1d^16^1c^17,14^18^c^e^0^15^f^11^1d^16^d^1c^17,1b^19^1a,1c^7,1d^1;;;"/>
-    </map>
-
-</incidents>
