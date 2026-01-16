@@ -11,11 +11,10 @@ A modern, modular Android library for displaying maintenance mode with support f
 
 ## 📱 Screenshots
 
-*Screenshots will be added after the first release. The library includes:*
-- ✅ Full-screen Activity
-- ✅ Modal Dialog  
-- ✅ Custom View
-- ✅ Jetpack Compose Screen
+| Activity | Dialog | Custom View | Compose |
+|----------|--------|-------------|---------|
+| 📱 **Activity** | 💬 **Dialog** | 🎨 **Custom View** | ⚡ **Compose** |
+| Full-screen maintenance mode | Modal dialog overlay | Custom view component | Declarative Compose UI |
 
 ## ✨ Features
 
