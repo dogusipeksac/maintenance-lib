@@ -1,4 +1,4 @@
-package com.dogus.maintenance.core
+package com.dogusipeksac.maintenance.core
 
 import android.os.Parcelable
 import androidx.annotation.ColorInt

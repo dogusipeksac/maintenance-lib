@@ -109,7 +109,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:visibility="visible" />
 
-        <com.dogus.maintenance.view.MaintenanceView
+        <com.dogusipeksac.maintenance.view.MaintenanceView
             android:id="@+id/maintenanceView"
             android:layout_width="0dp"
             android:layout_height="300dp"

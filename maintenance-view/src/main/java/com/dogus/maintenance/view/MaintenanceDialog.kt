@@ -1,12 +1,12 @@
-package com.dogus.maintenance.view
+package com.dogusipeksac.maintenance.view
 
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.core.OnRetryListener
-import com.dogus.maintenance.view.databinding.DialogMaintenanceBinding
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.core.OnRetryListener
+import com.dogusipeksac.maintenance.view.databinding.DialogMaintenanceBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 /**

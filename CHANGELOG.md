@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2024-01-16
+
+### Changed
+- 🔄 **Package Migration**: Updated all package names from `com.dogus.maintenance` to `com.dogusipeksac.maintenance`
+- 📦 Updated namespace declarations in all modules
+- 📦 Updated application IDs in sample apps
+- 📦 Updated all import statements throughout the codebase
+- 📦 Updated XML custom view references
+- 📦 Updated ProGuard rules with new package names
+- 📦 Updated documentation with new package examples
+
+### Fixed
+- 🐛 Fixed package naming consistency across all modules
+- 🐛 Updated build configurations to reflect new package structure
+
 ## [1.0.0] - 2024-01-16
 
 ### Added

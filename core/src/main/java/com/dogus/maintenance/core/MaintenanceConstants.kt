@@ -1,4 +1,4 @@
-package com.dogus.maintenance.core
+package com.dogusipeksac.maintenance.core
 
 /**
  * Constants used across the maintenance library modules.

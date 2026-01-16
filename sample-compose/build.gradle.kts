@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dogus.maintenance.sample.compose"
+    namespace = "com.dogusipeksac.maintenance.sample.compose"
     compileSdk = 34
     
     defaultConfig {
-        applicationId = "com.dogus.maintenance.sample.compose"
+        applicationId = "com.dogusipeksac.maintenance.sample.compose"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

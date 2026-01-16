@@ -1,10 +1,10 @@
-package com.dogus.maintenance.compose
+package com.dogusipeksac.maintenance.compose
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import com.dogus.maintenance.core.MaintenanceState
+import com.dogusipeksac.maintenance.core.MaintenanceState
 
 /**
  * Remember a mutable state for [MaintenanceState].

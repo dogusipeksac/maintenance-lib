@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dogus.maintenance.sample.java"
+    namespace = "com.dogusipeksac.maintenance.sample.java"
     compileSdk = 34
     
     defaultConfig {
-        applicationId = "com.dogus.maintenance.sample.java"
+        applicationId = "com.dogusipeksac.maintenance.sample.java"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

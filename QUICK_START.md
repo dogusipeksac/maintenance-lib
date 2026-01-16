@@ -37,7 +37,7 @@ dependencies {
 ### Kotlin (Android View)
 
 ```kotlin
-import com.dogus.maintenance.view.MaintenanceActivity
+import com.dogusipeksac.maintenance.view.MaintenanceActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 ### Java
 
 ```java
-import com.dogus.maintenance.view.MaintenanceActivity;
+import com.dogusipeksac.maintenance.view.MaintenanceActivity;
 
 public class MainActivity extends AppCompatActivity {
     @Override
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 ### Jetpack Compose
 
 ```kotlin
-import com.dogus.maintenance.compose.MaintenanceScreen
+import com.dogusipeksac.maintenance.compose.MaintenanceScreen
 
 @Composable
 fun MyApp() {
@@ -95,8 +95,8 @@ fun MyApp() {
 ### Dialog (Kotlin)
 
 ```kotlin
-import com.dogus.maintenance.view.MaintenanceDialog
-import com.dogus.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.view.MaintenanceDialog
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
 
 val config = MaintenanceConfig(
     title = "Bakım Çalışması",
@@ -112,7 +112,7 @@ MaintenanceDialog.show(this, config) {
 ### Custom View (XML)
 
 ```xml
-<com.dogus.maintenance.view.MaintenanceView
+<com.dogusipeksac.maintenance.view.MaintenanceView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:maintenanceTitle="Bakım Modu"

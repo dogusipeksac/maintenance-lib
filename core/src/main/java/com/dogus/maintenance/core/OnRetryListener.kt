@@ -1,4 +1,4 @@
-package com.dogus.maintenance.core
+package com.dogusipeksac.maintenance.core
 
 /**
  * SAM (Single Abstract Method) interface for retry button click events.

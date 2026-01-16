@@ -1,4 +1,4 @@
-package com.dogus.maintenance.sample.compose
+package com.dogusipeksac.maintenance.sample.compose
 
 import android.os.Bundle
 import android.widget.Toast
@@ -30,12 +30,12 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.dogus.maintenance.compose.MaintenanceComposeActivity
-import com.dogus.maintenance.compose.MaintenanceDialog
-import com.dogus.maintenance.compose.MaintenanceScreen
-import com.dogus.maintenance.compose.rememberMaintenanceState
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.core.MaintenanceState
+import com.dogusipeksac.maintenance.compose.MaintenanceComposeActivity
+import com.dogusipeksac.maintenance.compose.MaintenanceDialog
+import com.dogusipeksac.maintenance.compose.MaintenanceScreen
+import com.dogusipeksac.maintenance.compose.rememberMaintenanceState
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.core.MaintenanceState
 
 /**
  * Sample activity demonstrating all usage patterns of the Maintenance library with Jetpack Compose.

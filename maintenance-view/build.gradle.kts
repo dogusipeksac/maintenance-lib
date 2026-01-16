@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dogus.maintenance.view"
+    namespace = "com.dogusipeksac.maintenance.view"
     compileSdk = 34
     
     defaultConfig {
@@ -59,7 +59,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dogusipeksac"
                 artifactId = "maintenance-view"
-                version = "1.0.0"
+                version = "1.1.0"
             }
         }
     }

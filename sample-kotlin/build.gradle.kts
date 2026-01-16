@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dogus.maintenance.sample.kotlin"
+    namespace = "com.dogusipeksac.maintenance.sample.kotlin"
     compileSdk = 34
     
     defaultConfig {
-        applicationId = "com.dogus.maintenance.sample.kotlin"
+        applicationId = "com.dogusipeksac.maintenance.sample.kotlin"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

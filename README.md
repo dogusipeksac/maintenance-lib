@@ -150,7 +150,7 @@ supportFragmentManager.beginTransaction()
 
 #### 4. Custom View (XML)
 ```xml
-<com.dogus.maintenance.view.MaintenanceView
+<com.dogusipeksac.maintenance.view.MaintenanceView
     android:id="@+id/maintenanceView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -330,7 +330,7 @@ val config = MaintenanceConfig(
 ### Custom Attributes (XML)
 
 ```xml
-<com.dogus.maintenance.view.MaintenanceView
+<com.dogusipeksac.maintenance.view.MaintenanceView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:maintenanceTitle="Bakım Modu"
@@ -457,7 +457,7 @@ The library includes consumer ProGuard rules. No additional configuration needed
 If you want to add custom rules:
 
 ```proguard
--keep class com.dogus.maintenance.** { *; }
+-keep class com.dogusipeksac.maintenance.** { *; }
 ```
 
 ## 🌍 Localization

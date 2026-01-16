@@ -1,4 +1,4 @@
-package com.dogus.maintenance.core
+package com.dogusipeksac.maintenance.core
 
 /**
  * Sealed class representing different states of maintenance mode.

@@ -1,4 +1,4 @@
-package com.dogus.maintenance.compose
+package com.dogusipeksac.maintenance.compose
 
 import android.content.Context
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.material3.MaterialTheme
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.core.MaintenanceConstants.EXTRA_CONFIG
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.core.MaintenanceConstants.EXTRA_CONFIG
 
 /**
  * Activity wrapper for displaying maintenance mode using Jetpack Compose.

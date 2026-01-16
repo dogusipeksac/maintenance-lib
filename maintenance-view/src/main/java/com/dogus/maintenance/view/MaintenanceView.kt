@@ -1,20 +1,20 @@
-package com.dogus.maintenance.view
+package com.dogusipeksac.maintenance.view
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.core.OnRetryListener
-import com.dogus.maintenance.view.databinding.ViewMaintenanceBinding
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.core.OnRetryListener
+import com.dogusipeksac.maintenance.view.databinding.ViewMaintenanceBinding
 
 /**
  * Custom view for displaying maintenance mode inline in layouts.
  * 
  * This view can be used directly in XML layouts with custom attributes:
  * ```xml
- * <com.dogus.maintenance.view.MaintenanceView
+ * <com.dogusipeksac.maintenance.view.MaintenanceView
  *     android:layout_width="match_parent"
  *     android:layout_height="match_parent"
  *     app:maintenanceTitle="Bakım Modu"

@@ -127,7 +127,7 @@ adb devices
 
 # Install and run
 ./gradlew :sample-kotlin:installDebug
-adb shell am start -n com.dogus.maintenance.sample.kotlin/.MainActivity
+adb shell am start -n com.dogusipeksac.maintenance.sample.kotlin/.MainActivity
 ```
 
 ## 🚀 Release Commands
@@ -303,9 +303,9 @@ adb install -r sample-kotlin/build/outputs/apk/debug/sample-kotlin-debug.apk
 ### Uninstall App
 
 ```bash
-adb uninstall com.dogus.maintenance.sample.kotlin
-adb uninstall com.dogus.maintenance.sample.java
-adb uninstall com.dogus.maintenance.sample.compose
+adb uninstall com.dogusipeksac.maintenance.sample.kotlin
+adb uninstall com.dogusipeksac.maintenance.sample.java
+adb uninstall com.dogusipeksac.maintenance.sample.compose
 ```
 
 ### View Logs
@@ -317,7 +317,7 @@ adb logcat | grep "MaintenanceMode"
 ### Clear App Data
 
 ```bash
-adb shell pm clear com.dogus.maintenance.sample.kotlin
+adb shell pm clear com.dogusipeksac.maintenance.sample.kotlin
 ```
 
 ## 🎯 Complete Release Workflow

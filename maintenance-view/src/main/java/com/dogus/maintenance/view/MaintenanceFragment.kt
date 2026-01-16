@@ -1,14 +1,14 @@
-package com.dogus.maintenance.view
+package com.dogusipeksac.maintenance.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.core.MaintenanceConstants.EXTRA_CONFIG
-import com.dogus.maintenance.core.OnRetryListener
-import com.dogus.maintenance.view.databinding.ViewMaintenanceBinding
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.core.MaintenanceConstants.EXTRA_CONFIG
+import com.dogusipeksac.maintenance.core.OnRetryListener
+import com.dogusipeksac.maintenance.view.databinding.ViewMaintenanceBinding
 
 /**
  * Fragment for displaying maintenance mode.

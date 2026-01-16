@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.dogus.maintenance.core"
+    namespace = "com.dogusipeksac.maintenance.core"
     compileSdk = 34
     
     defaultConfig {
@@ -50,7 +50,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.dogusipeksac"
                 artifactId = "maintenance-core"
-                version = "1.0.0"
+                version = "1.1.0"
             }
         }
     }

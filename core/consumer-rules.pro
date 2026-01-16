@@ -1,2 +1,2 @@
 # Consumer ProGuard rules for core module
--keep public class com.dogus.maintenance.core.** { public *; }
+-keep public class com.dogusipeksac.maintenance.core.** { public *; }

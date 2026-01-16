@@ -1,15 +1,15 @@
-package com.dogus.maintenance.sample.kotlin
+package com.dogusipeksac.maintenance.sample.kotlin
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.sample.kotlin.databinding.ActivityMainBinding
-import com.dogus.maintenance.view.MaintenanceActivity
-import com.dogus.maintenance.view.MaintenanceDialog
-import com.dogus.maintenance.view.MaintenanceFragment
-import com.dogus.maintenance.view.showMaintenance
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.sample.kotlin.databinding.ActivityMainBinding
+import com.dogusipeksac.maintenance.view.MaintenanceActivity
+import com.dogusipeksac.maintenance.view.MaintenanceDialog
+import com.dogusipeksac.maintenance.view.MaintenanceFragment
+import com.dogusipeksac.maintenance.view.showMaintenance
 
 /**
  * Sample activity demonstrating all usage patterns of the Maintenance library with Kotlin.

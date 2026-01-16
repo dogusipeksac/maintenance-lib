@@ -1,14 +1,14 @@
-package com.dogus.maintenance.view
+package com.dogusipeksac.maintenance.view
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.dogus.maintenance.core.MaintenanceConfig
-import com.dogus.maintenance.core.MaintenanceConstants.EXTRA_CONFIG
-import com.dogus.maintenance.core.OnRetryListener
-import com.dogus.maintenance.view.databinding.ActivityMaintenanceBinding
+import com.dogusipeksac.maintenance.core.MaintenanceConfig
+import com.dogusipeksac.maintenance.core.MaintenanceConstants.EXTRA_CONFIG
+import com.dogusipeksac.maintenance.core.OnRetryListener
+import com.dogusipeksac.maintenance.view.databinding.ActivityMaintenanceBinding
 
 /**
  * Full-screen activity for displaying maintenance mode.

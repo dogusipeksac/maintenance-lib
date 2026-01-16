@@ -5,7 +5,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 ## 📋 Project Overview
 
 **Project Name**: Maintenance Mode Library  
-**Package**: `com.dogus.maintenance`  
+**Package**: `com.dogusipeksac.maintenance`  
 **Version**: 1.0.0  
 **License**: MIT  
 **Author**: Doğuş İpeksaç
@@ -13,7 +13,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 ## ✅ Completed Modules
 
 ### 1. Core Module (`core/`)
-**Package**: `com.dogus.maintenance.core`
+**Package**: `com.dogusipeksac.maintenance.core`
 
 **Files Created**:
 - ✅ `MaintenanceConfig.kt` - Parcelable configuration data class with Builder
@@ -33,7 +33,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 - Full KDoc documentation
 
 ### 2. Maintenance-View Module (`maintenance-view/`)
-**Package**: `com.dogus.maintenance.view`
+**Package**: `com.dogusipeksac.maintenance.view`
 
 **Kotlin Files**:
 - ✅ `MaintenanceActivity.kt` - Full-screen activity with DSL
@@ -61,7 +61,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 - Full Javadoc/KDoc
 
 ### 3. Maintenance-Compose Module (`maintenance-compose/`)
-**Package**: `com.dogus.maintenance.compose`
+**Package**: `com.dogusipeksac.maintenance.compose`
 
 **Files Created**:
 - ✅ `MaintenanceScreen.kt` - Full-screen composable with previews
@@ -80,7 +80,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 - Full KDoc documentation
 
 ### 4. Sample-Kotlin App (`sample-kotlin/`)
-**Package**: `com.dogus.maintenance.sample.kotlin`
+**Package**: `com.dogusipeksac.maintenance.sample.kotlin`
 
 **Files Created**:
 - ✅ `MainActivity.kt` - Comprehensive Kotlin examples
@@ -98,7 +98,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 6. Config-based approach
 
 ### 5. Sample-Java App (`sample-java/`)
-**Package**: `com.dogus.maintenance.sample.java`
+**Package**: `com.dogusipeksac.maintenance.sample.java`
 
 **Files Created**:
 - ✅ `MainActivity.java` - Comprehensive Java examples
@@ -116,7 +116,7 @@ Complete Android Maintenance Mode Library - Implementation Details
 6. Config builder
 
 ### 6. Sample-Compose App (`sample-compose/`)
-**Package**: `com.dogus.maintenance.sample.compose`
+**Package**: `com.dogusipeksac.maintenance.sample.compose`
 
 **Files Created**:
 - ✅ `MainActivity.kt` - Comprehensive Compose examples
