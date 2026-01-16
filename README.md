@@ -11,10 +11,11 @@ A modern, modular Android library for displaying maintenance mode with support f
 
 ## 📱 Screenshots
 
-| Activity | Dialog | Custom View | Compose |
-|----------|--------|-------------|---------|
-| **Activity** | **Dialog** | **Custom View** | **Compose** |
-| ![Activity](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_activity.png) | ![Dialog](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_dialog.png) | ![View](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_view.png) | ![Compose](https://raw.githubusercontent.com/dogusipeksac/maintenance-lib/main/docs/screenshot_compose.png) |
+*Screenshots will be added after the first release. The library includes:*
+- ✅ Full-screen Activity
+- ✅ Modal Dialog  
+- ✅ Custom View
+- ✅ Jetpack Compose Screen
 
 ## ✨ Features
 
